@@ -1,5 +1,5 @@
 {
-	"name": "sourcedataset",
+	"name": "sourcedataset1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "sourcelinkedfile1",

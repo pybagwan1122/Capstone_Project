@@ -45,13 +45,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "sourcedataset",
+						"referenceName": "sourcedataset1",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "sourcedataset",
+						"referenceName": "sourcedataset1",
 						"type": "DatasetReference"
 					}
 				]
