@@ -1,0 +1,22 @@
+{
+	"name": "sourcedataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sourcelinkedfile1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Capstone_Project/main/EmployeeCertificationCompletionStatus.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
