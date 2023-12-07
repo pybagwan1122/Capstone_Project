@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Capstone_Project/main/EmployeeCertificationCompletionStatus.csv"
+				"relativeUrl": "/Capstone_Project/main/EmployeeCertificationCompletionStatus.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
