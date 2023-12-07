@@ -1,0 +1,112 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Data Factory name",
+			"defaultValue": "adf071223"
+		},
+		"AzureDataLakeStorageforsink_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorageforsink'"
+		},
+		"AzureDatabricks1_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'AzureDatabricks1'"
+		},
+		"sourceGitHub_credential": {
+			"type": "secureString",
+			"metadata": "Secure string for 'credential' of 'sourceGitHub'"
+		},
+		"sourcelinkedfile2_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'sourcelinkedfile2'"
+		},
+		"AzureDataLakeStorageforsink_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsstorage071223.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "1207-061509-eh2r632h"
+		},
+		"sourceGitHub_properties_typeProperties_username": {
+			"type": "string",
+			"defaultValue": "pybagwan1122"
+		},
+		"sourcelinkedfile1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://github.com"
+		},
+		"sourcelinkedfile2_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://github.com/"
+		},
+		"sourcelinkedfile2_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "pybagwan1122"
+		},
+		"containerUri": {
+			"type": "string",
+			"metadata": "URI to storage account containing linked ARM templates"
+		},
+		"containerSasToken": {
+			"type": "string",
+			"metadata": "Sas token to storage account containing linked ARM templates"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "adf071223_ArmTemplate_0",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2018-02-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"AzureDataLakeStorageforsink_accountKey": {
+						"value": "[parameters('AzureDataLakeStorageforsink_accountKey')]"
+					},
+					"AzureDatabricks1_accessToken": {
+						"value": "[parameters('AzureDatabricks1_accessToken')]"
+					},
+					"sourceGitHub_credential": {
+						"value": "[parameters('sourceGitHub_credential')]"
+					},
+					"sourcelinkedfile2_password": {
+						"value": "[parameters('sourcelinkedfile2_password')]"
+					},
+					"AzureDataLakeStorageforsink_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorageforsink_properties_typeProperties_url')]"
+					},
+					"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('AzureDatabricks1_properties_typeProperties_existingClusterId')]"
+					},
+					"sourceGitHub_properties_typeProperties_username": {
+						"value": "[parameters('sourceGitHub_properties_typeProperties_username')]"
+					},
+					"sourcelinkedfile1_properties_typeProperties_url": {
+						"value": "[parameters('sourcelinkedfile1_properties_typeProperties_url')]"
+					},
+					"sourcelinkedfile2_properties_typeProperties_url": {
+						"value": "[parameters('sourcelinkedfile2_properties_typeProperties_url')]"
+					},
+					"sourcelinkedfile2_properties_typeProperties_userName": {
+						"value": "[parameters('sourcelinkedfile2_properties_typeProperties_userName')]"
+					}
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}

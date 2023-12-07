@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf071223"
+		},
+		"AzureDataLakeStorageforsink_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"sourceGitHub_credential": {
+			"value": ""
+		},
+		"sourcelinkedfile2_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorageforsink_properties_typeProperties_url": {
+			"value": "https://adlsstorage071223.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1207-061509-eh2r632h"
+		},
+		"sourceGitHub_properties_typeProperties_username": {
+			"value": "pybagwan1122"
+		},
+		"sourcelinkedfile1_properties_typeProperties_url": {
+			"value": "https://github.com"
+		},
+		"sourcelinkedfile2_properties_typeProperties_url": {
+			"value": "https://github.com/"
+		},
+		"sourcelinkedfile2_properties_typeProperties_userName": {
+			"value": "pybagwan1122"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
