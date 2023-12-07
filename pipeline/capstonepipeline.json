@@ -111,6 +111,9 @@
 					},
 					"sink": {
 						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
 							"quoteAllText": true,
@@ -135,7 +138,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "sourcedataset2",
+						"referenceName": "sinkdataset",
 						"type": "DatasetReference"
 					}
 				]
