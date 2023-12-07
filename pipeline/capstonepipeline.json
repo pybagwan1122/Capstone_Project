@@ -55,7 +55,7 @@
 				}
 			},
 			{
-				"name": "Web1_copy1",
+				"name": "logic app success mail",
 				"type": "WebActivity",
 				"dependsOn": [
 					{
