@@ -64,7 +64,7 @@
 				"type": "WebActivity",
 				"dependsOn": [
 					{
-						"activity": "Notebook1",
+						"activity": "capstone notebook",
 						"dependencyConditions": [
 							"Failed"
 						]
@@ -148,7 +148,7 @@
 				"type": "WebActivity",
 				"dependsOn": [
 					{
-						"activity": "Notebook1",
+						"activity": "capstone notebook",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -168,7 +168,7 @@
 				}
 			},
 			{
-				"name": "Notebook1",
+				"name": "capstone notebook",
 				"type": "DatabricksNotebook",
 				"dependsOn": [
 					{
