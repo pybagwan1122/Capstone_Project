@@ -39,7 +39,7 @@
 				"userProperties": []
 			},
 			{
-				"name": "Copy data1_copy1",
+				"name": "Copy data from file2",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -85,7 +85,7 @@
 						]
 					},
 					{
-						"activity": "Copy data1_copy1",
+						"activity": "Copy data from file2",
 						"dependencyConditions": [
 							"Succeeded"
 						]
