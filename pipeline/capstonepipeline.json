@@ -19,7 +19,7 @@
 				}
 			},
 			{
-				"name": "Web1",
+				"name": "logic app falire mail",
 				"type": "WebActivity",
 				"dependsOn": [
 					{
