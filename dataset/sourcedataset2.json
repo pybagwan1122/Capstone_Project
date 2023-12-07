@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Capstone_Project/main/EmployeeCertificationDetails.csv"
+				"relativeUrl": "pybagwan1122/Capstone_Project/raw/main/EmployeeCertificationDetails.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
