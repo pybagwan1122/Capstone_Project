@@ -1,0 +1,31 @@
+﻿CertificationType,CertificationId,Title,Competency,Complexity
+CORE TECH COMPETENCIES,C0001,Core Java,Technical,Basic
+CORE TECH COMPETENCIES,C0002,Multi-device capable UI,Technical,Basic
+CORE TECH COMPETENCIES,C0003,Rich Front-end SPA,Security,Advanced
+CORE TECH COMPETENCIES,C0004,RESTFul API ,Domain,Advanced
+CORE TECH COMPETENCIES,C0005,Microservices,Domain,Advanced
+CORE TECH COMPETENCIES,C0006,Polyglot Persistence,Domain,Advanced
+CORE TECH COMPETENCIES,C0007,API Management,Security,Advanced
+CORE TECH COMPETENCIES,C0008,DevOps,Technical,Advanced
+CORE TECH COMPETENCIES,C0009,Cloud Deployment,Technical,Advanced
+CORE TECH COMPETENCIES,C0010,Product Development,Technical,Basic
+ENGINEERING COMPETENCIES,C0011,Git,Technical,Basic
+ENGINEERING COMPETENCIES,C0012,Software Engineering Practices,Domain,Basic
+ENGINEERING COMPETENCIES,C0013,Agile Methodology,Domain,Advanced
+ENGINEERING COMPETENCIES,C0014,CI/CD ,Domain,Basic
+ENGINEERING COMPETENCIES,C0015,Coding Standards & Practices,Domain,Basic
+ENGINEERING COMPETENCIES,C0016,Code Quality,Domain,Basic
+ENGINEERING COMPETENCIES,C0017,Review & Refactor,Domain,Advanced
+ENGINEERING COMPETENCIES,C0018,Test Automation ,Domain,Advanced
+ENGINEERING COMPETENCIES,C0019,Design Patterns,Domain,Advanced
+PROFESSIONAL COMPETENCIES,C0020,Self-learning,Domain,Advanced
+PROFESSIONAL COMPETENCIES,C0021,Inter-personal Skills,Domain,Advanced
+PROFESSIONAL COMPETENCIES,C0022,Productive Communications with Clients,Domain,Advanced
+PROFESSIONAL COMPETENCIES,C0023,Listening Skills,Technical,Advanced
+PROFESSIONAL COMPETENCIES,C0024,Presentation Skills,Domain,Basic
+PROFESSIONAL COMPETENCIES,C0025,Working in teams,Domain,Advanced
+PROFESSIONAL COMPETENCIES,C0026,Remote work culture ,Domain,Basic
+PROFESSIONAL COMPETENCIES,C0027,Remote work practice,Technical,Basic
+PROFESSIONAL COMPETENCIES,C0028,Corporate work culture and  ethics,Technical,Basic
+PROFESSIONAL COMPETENCIES,C0029,Working with abstract requirements,Technical,Advanced
+Web Development,C0030,Web Technologies ,Technical,Basic
